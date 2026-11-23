@@ -1,0 +1,19 @@
+{
+  "stage": "marina",
+  "textures": {
+    "promenade": { "id": "PavingStones136", "slabMeters": [1.2, 0.8] },
+    "wall":      { "id": "Bricks105",       "repeatMeters": 1.5 },
+    "sand":      { "id": "Ground080",       "repeatMeters": 3.0 },
+    "kerb":      { "id": "Rock028",         "repeatMeters": 1.0 },
+    "breakwater":{ "id": "Rock028",         "repeatMeters": 2.0 }
+  },
+  "models": {
+    "street_lamp":  { "file": "street_lamp_01.glb", "heightMeters": 3.9, "band": "promenade back edge" },
+    "wall_lantern": { "file": "street_lamp_02.glb", "heightMeters": 1.7, "band": "on walls/buildings only (wall-mounted)" },
+    "bench":        { "file": "bench.glb",          "heightMeters": 0.87, "band": "promenade back edge" },
+    "vendor_cart":  { "file": "vendor_cart.glb",    "heightMeters": 1.8, "band": "promenade back edge / beach" },
+    "popcorn_cart": { "file": "popcorn_cart.glb",   "heightMeters": 1.8, "band": "promenade back edge / beach" },
+    "shore_rocks_a":{ "file": "coast_rocks_01.glb", "widthMeters": 60, "band": "sea edge, far background" },
+    "shore_rocks_b":{ "file": "coast_rocks_03.glb", "widthMeters": 28, "band": "sea edge, far background" }
+  }
+}
