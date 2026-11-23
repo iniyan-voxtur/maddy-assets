@@ -1,19 +1,121 @@
 {
-  "stage": "marina",
-  "textures": {
-    "promenade": { "id": "PavingStones136", "slabMeters": [1.2, 0.8] },
-    "wall":      { "id": "Bricks105",       "repeatMeters": 1.5 },
-    "sand":      { "id": "Ground080",       "repeatMeters": 3.0 },
-    "kerb":      { "id": "Rock028",         "repeatMeters": 1.0 },
-    "breakwater":{ "id": "Rock028",         "repeatMeters": 2.0 }
+ "stage": "marina",
+ "textures": {
+  "promenade": {
+   "id": "PavingStones136",
+   "slabMeters": [
+    1.2,
+    0.8
+   ]
   },
-  "models": {
-    "street_lamp":  { "file": "street_lamp_01.glb", "heightMeters": 3.9, "band": "promenade back edge" },
-    "wall_lantern": { "file": "street_lamp_02.glb", "heightMeters": 1.7, "band": "on walls/buildings only (wall-mounted)" },
-    "bench":        { "file": "bench.glb",          "heightMeters": 0.87, "band": "promenade back edge" },
-    "vendor_cart":  { "file": "vendor_cart.glb",    "heightMeters": 1.8, "band": "promenade back edge / beach" },
-    "popcorn_cart": { "file": "popcorn_cart.glb",   "heightMeters": 1.8, "band": "promenade back edge / beach" },
-    "shore_rocks_a":{ "file": "coast_rocks_01.glb", "widthMeters": 60, "band": "sea edge, far background" },
-    "shore_rocks_b":{ "file": "coast_rocks_03.glb", "widthMeters": 28, "band": "sea edge, far background" }
+  "wall": {
+   "id": "Bricks105",
+   "repeatMeters": 1.5
+  },
+  "sand": {
+   "id": "Ground080",
+   "repeatMeters": 3.0
+  },
+  "kerb": {
+   "id": "Rock028",
+   "repeatMeters": 1.0
+  },
+  "breakwater": {
+   "id": "Rock028",
+   "repeatMeters": 2.0
   }
+ },
+ "models": {
+  "street_lamp": {
+   "file": "street_lamp_01.glb",
+   "heightMeters": 3.9,
+   "band": "promenade back edge"
+  },
+  "wall_lantern": {
+   "file": "street_lamp_02.glb",
+   "heightMeters": 1.7,
+   "band": "on walls/buildings only (wall-mounted)"
+  },
+  "bench": {
+   "file": "bench.glb",
+   "heightMeters": 0.87,
+   "band": "promenade back edge"
+  },
+  "vendor_cart": {
+   "file": "vendor_cart.glb",
+   "heightMeters": 1.8,
+   "band": "promenade back edge / beach"
+  },
+  "popcorn_cart": {
+   "file": "popcorn_cart.glb",
+   "heightMeters": 1.8,
+   "band": "promenade back edge / beach"
+  },
+  "shore_rocks_a": {
+   "file": "coast_rocks_01.glb",
+   "widthMeters": 60,
+   "band": "sea edge, far background"
+  },
+  "shore_rocks_b": {
+   "file": "coast_rocks_03.glb",
+   "widthMeters": 28,
+   "band": "sea edge, far background"
+  }
+ },
+ "palms_partB": {
+  "note": "paths relative to repo root",
+  "items": [
+   {
+    "file": "shared/models/palm_1.glb",
+    "fit": "height",
+    "meters": 8,
+    "band": "promenade back edge and beach",
+    "count": "8-12 total"
+   },
+   {
+    "file": "shared/models/palm_2.glb",
+    "fit": "height",
+    "meters": 8,
+    "band": "promenade back edge and beach",
+    "count": "8-12 total"
+   },
+   {
+    "file": "shared/models/palm_3.glb",
+    "fit": "height",
+    "meters": 8,
+    "band": "promenade back edge and beach",
+    "count": "8-12 total"
+   },
+   {
+    "file": "shared/models/palm_4.glb",
+    "fit": "height",
+    "meters": 8,
+    "band": "promenade back edge and beach",
+    "count": "8-12 total"
+   }
+  ],
+  "extras": {
+   "lifebuoy": {
+    "file": "shared/models/lifebuoy.glb",
+    "fit": "height",
+    "meters": 0.8,
+    "band": "promenade railings",
+    "count": "2-3"
+   },
+   "ocean_buoy": {
+    "file": "shared/models/ocean_buoy.glb",
+    "fit": "height",
+    "meters": 2.7,
+    "band": "in the sea",
+    "count": "2"
+   },
+   "fishing_boat": {
+    "file": "besant/models/boat_fishing_small.glb",
+    "fit": "length",
+    "meters": 6,
+    "band": "on the sea, mid distance",
+    "count": "2-3"
+   }
+  }
+ }
 }

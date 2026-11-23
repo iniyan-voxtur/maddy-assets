@@ -1,0 +1,168 @@
+{
+ "stage": "besant",
+ "note": "All paths are relative to the repo root (ASSET_ROOT).",
+ "textures": {
+  "beach_sand": {
+   "id": "Ground080",
+   "path": "marina/textures/Ground080/",
+   "repeatMeters": 3.0
+  },
+  "walkway": {
+   "id": "PavingStones128",
+   "path": "besant/textures/PavingStones128/",
+   "repeatMeters": 2.0
+  },
+  "wooden_platforms_and_boat_hulls": {
+   "id": "Planks021",
+   "path": "besant/textures/Planks021/",
+   "repeatMeters": 1.5
+  },
+  "church_and_building_walls": {
+   "id": "Plaster002",
+   "path": "besant/textures/Plaster002/",
+   "repeatMeters": 2.0
+  },
+  "rocks": {
+   "id": "Rock062",
+   "path": "besant/textures/Rock062/",
+   "repeatMeters": 2.0
+  }
+ },
+ "models": {
+  "fishing_boat": {
+   "file": "besant/models/boat_fishing_small.glb",
+   "fit": "length",
+   "meters": 6,
+   "band": "pulled up on the sand, tilted slightly",
+   "count": "3-4"
+  },
+  "rowing_boat_small": {
+   "file": "besant/models/boat_row_small.glb",
+   "fit": "length",
+   "meters": 4,
+   "band": "on the sand",
+   "count": "3-4"
+  },
+  "rowing_boat_large": {
+   "file": "besant/models/boat_row_large.glb",
+   "fit": "length",
+   "meters": 5,
+   "band": "on the sand and bobbing near shore",
+   "count": "2-3"
+  },
+  "sailing_boat": {
+   "file": "besant/models/boat_sail_a.glb",
+   "fit": "height",
+   "meters": 6,
+   "band": "on the sea, mid distance, bobbing",
+   "count": "2-3"
+  },
+  "cargo_ship": {
+   "file": "besant/models/ship_cargo_a.glb",
+   "fit": "length",
+   "meters": 40,
+   "band": "far horizon, very slow drift",
+   "count": "1-2"
+  },
+  "pier_section": {
+   "file": "besant/models/pier_section.glb",
+   "fit": "height",
+   "meters": 4.3,
+   "band": "wooden pier going out to sea in the background; chain sections end to end",
+   "count": "4-6 sections"
+  },
+  "pier_end": {
+   "file": "besant/models/pier_end.glb",
+   "fit": "height",
+   "meters": 4.2,
+   "band": "last section of the pier",
+   "count": "1"
+  },
+  "sand_rocks": {
+   "file": "besant/models/sand_rocks.glb",
+   "fit": "length",
+   "meters": 4.6,
+   "band": "scattered on the beach",
+   "count": "4-6"
+  },
+  "barrel": {
+   "file": "besant/models/barrel.glb",
+   "fit": "height",
+   "meters": 0.9,
+   "band": "near boats and pier",
+   "count": "4-6"
+  },
+  "crate": {
+   "file": "shared/models/crate_long.glb",
+   "fit": "length",
+   "meters": 1.2,
+   "band": "near boats and stalls",
+   "count": "4-6"
+  },
+  "lifebuoy": {
+   "file": "shared/models/lifebuoy.glb",
+   "fit": "height",
+   "meters": 0.8,
+   "band": "hung on pier posts",
+   "count": "2-3"
+  },
+  "ocean_buoy": {
+   "file": "shared/models/ocean_buoy.glb",
+   "fit": "height",
+   "meters": 2.7,
+   "band": "in the water, bobbing",
+   "count": "2"
+  },
+  "vendor_cart": {
+   "file": "marina/models/vendor_cart.glb",
+   "fit": "height",
+   "meters": 1.8,
+   "band": "bajji stalls along the walkway",
+   "count": "2-3"
+  },
+  "popcorn_cart": {
+   "file": "marina/models/popcorn_cart.glb",
+   "fit": "height",
+   "meters": 1.8,
+   "band": "along the walkway",
+   "count": "1-2"
+  },
+  "bush": {
+   "file": "shared/models/bush.glb",
+   "fit": "height",
+   "meters": 1.2,
+   "band": "walkway verges",
+   "count": "6-8"
+  }
+ },
+ "palms": [
+  {
+   "file": "shared/models/palm_1.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "dense along the beach back edge and walkway",
+   "count": "10-14 total"
+  },
+  {
+   "file": "shared/models/palm_2.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "dense along the beach back edge and walkway",
+   "count": "10-14 total"
+  },
+  {
+   "file": "shared/models/palm_3.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "dense along the beach back edge and walkway",
+   "count": "10-14 total"
+  },
+  {
+   "file": "shared/models/palm_4.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "dense along the beach back edge and walkway",
+   "count": "10-14 total"
+  }
+ ]
+}

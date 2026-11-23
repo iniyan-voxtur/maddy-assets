@@ -1,0 +1,138 @@
+{
+ "stage": "mylapore",
+ "note": "All paths are relative to the repo root (ASSET_ROOT).",
+ "textures": {
+  "temple_base_and_tank_steps": {
+   "id": "Bricks113A",
+   "path": "mylapore/textures/Bricks113A/",
+   "repeatMeters": 1.5
+  },
+  "courtyard_floor": {
+   "id": "Tiles144",
+   "path": "mylapore/textures/Tiles144/",
+   "repeatMeters": 1.0
+  },
+  "street_paving": {
+   "id": "PavingStones149",
+   "path": "mylapore/textures/PavingStones149/",
+   "repeatMeters": 2.0
+  },
+  "house_walls_and_dome": {
+   "id": "Plaster001",
+   "path": "mylapore/textures/Plaster001/",
+   "repeatMeters": 2.0
+  },
+  "doors_and_wooden_platforms": {
+   "id": "Planks023A",
+   "path": "mylapore/textures/Planks023A/",
+   "repeatMeters": 1.5
+  },
+  "side_lanes": {
+   "id": "Ground103",
+   "path": "mylapore/textures/Ground103/",
+   "repeatMeters": 3.0
+  }
+ },
+ "models": {
+  "auto_rickshaw": {
+   "file": "mylapore/models/auto_rickshaw.glb",
+   "fit": "height",
+   "meters": 1.7,
+   "band": "road band, parked and driving",
+   "count": "6-10"
+  },
+  "market_stalls": {
+   "file": "mylapore/models/market_stall.glb",
+   "fit": "length",
+   "meters": 8,
+   "band": "street edge near temple (flower/fruit stalls)",
+   "count": "3-4"
+  },
+  "diya_lantern": {
+   "file": "mylapore/models/diya_lantern.glb",
+   "fit": "height",
+   "meters": 0.4,
+   "band": "hanging from stall roofs and temple eaves; flame emissive",
+   "count": "10-16"
+  },
+  "wooden_lantern": {
+   "file": "mylapore/models/wooden_lantern.glb",
+   "fit": "height",
+   "meters": 0.5,
+   "band": "on steps, walls and stall counters; glass emissive",
+   "count": "6-10"
+  },
+  "brass_pot": {
+   "file": "mylapore/models/brass_pot.glb",
+   "fit": "height",
+   "meters": 0.3,
+   "band": "temple steps, stall counters",
+   "count": "8-12"
+  },
+  "ceramic_pot": {
+   "file": "mylapore/models/ceramic_pot.glb",
+   "fit": "height",
+   "meters": 0.4,
+   "band": "doorsteps, stalls",
+   "count": "6-10"
+  },
+  "wicker_basket": {
+   "file": "mylapore/models/wicker_basket.glb",
+   "fit": "length",
+   "meters": 0.5,
+   "band": "stall counters (flowers/fruit)",
+   "count": "6-10"
+  },
+  "crate": {
+   "file": "shared/models/crate_small.glb",
+   "fit": "length",
+   "meters": 0.8,
+   "band": "behind stalls, stacked",
+   "count": "6-8"
+  },
+  "bush": {
+   "file": "shared/models/bush.glb",
+   "fit": "height",
+   "meters": 1.2,
+   "band": "verges, tank edge",
+   "count": "8-12"
+  },
+  "plant": {
+   "file": "shared/models/plant.glb",
+   "fit": "height",
+   "meters": 0.6,
+   "band": "in pots and verges",
+   "count": "8-12"
+  }
+ },
+ "palms": [
+  {
+   "file": "shared/models/palm_1.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "a few around the temple tank and street ends",
+   "count": "4-6 total"
+  },
+  {
+   "file": "shared/models/palm_2.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "a few around the temple tank and street ends",
+   "count": "4-6 total"
+  },
+  {
+   "file": "shared/models/palm_3.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "a few around the temple tank and street ends",
+   "count": "4-6 total"
+  },
+  {
+   "file": "shared/models/palm_4.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "a few around the temple tank and street ends",
+   "count": "4-6 total"
+  }
+ ]
+}

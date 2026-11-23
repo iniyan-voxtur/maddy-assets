@@ -1,0 +1,154 @@
+{
+ "stage": "starlight",
+ "note": "Night version of Marina. All paths are relative to the repo root (ASSET_ROOT).",
+ "textures": {
+  "promenade": {
+   "id": "PavingStones136",
+   "path": "marina/textures/PavingStones136/",
+   "slabMeters": [
+    1.2,
+    0.8
+   ]
+  },
+  "wall_below_promenade": {
+   "id": "Bricks105",
+   "path": "marina/textures/Bricks105/",
+   "repeatMeters": 1.5
+  },
+  "kerb_and_breakwater": {
+   "id": "Rock028",
+   "path": "marina/textures/Rock028/",
+   "repeatMeters": 1.0
+  },
+  "dry_sand": {
+   "id": "Ground080",
+   "path": "marina/textures/Ground080/",
+   "repeatMeters": 3.0
+  },
+  "wet_sand_near_water": {
+   "id": "Ground054",
+   "path": "starlight/textures/Ground054/",
+   "repeatMeters": 3.0,
+   "roughnessMultiplier": 0.5
+  },
+  "stage_and_pier_boards": {
+   "id": "Planks040",
+   "path": "starlight/textures/Planks040/",
+   "repeatMeters": 1.5
+  },
+  "night_building_walls": {
+   "id": "Concrete036",
+   "path": "starlight/textures/Concrete036/",
+   "repeatMeters": 2.0
+  }
+ },
+ "models": {
+  "street_lamp": {
+   "file": "marina/models/street_lamp_01.glb",
+   "fit": "height",
+   "meters": 3.9,
+   "band": "promenade back edge every 10-12 m; bulb + glass emissive warm",
+   "count": "as Marina"
+  },
+  "bench": {
+   "file": "marina/models/bench.glb",
+   "fit": "height",
+   "meters": 0.87,
+   "band": "between lamps",
+   "count": "as Marina"
+  },
+  "vendor_cart": {
+   "file": "marina/models/vendor_cart.glb",
+   "fit": "height",
+   "meters": 1.8,
+   "band": "with a hanging wooden_lantern lit",
+   "count": "3-4"
+  },
+  "popcorn_cart": {
+   "file": "marina/models/popcorn_cart.glb",
+   "fit": "height",
+   "meters": 1.8,
+   "band": "with a hanging diya_lantern lit",
+   "count": "2-3"
+  },
+  "wooden_lantern": {
+   "file": "mylapore/models/wooden_lantern.glb",
+   "fit": "height",
+   "meters": 0.5,
+   "band": "on carts and benches, emissive",
+   "count": "6-8"
+  },
+  "diya_lantern": {
+   "file": "mylapore/models/diya_lantern.glb",
+   "fit": "height",
+   "meters": 0.4,
+   "band": "on carts, emissive",
+   "count": "4-6"
+  },
+  "shore_rocks_a": {
+   "file": "marina/models/coast_rocks_01.glb",
+   "fit": "length",
+   "meters": 60,
+   "band": "waterline far background",
+   "count": "1"
+  },
+  "shore_rocks_b": {
+   "file": "marina/models/coast_rocks_03.glb",
+   "fit": "length",
+   "meters": 28,
+   "band": "waterline far background",
+   "count": "1"
+  },
+  "ocean_buoy": {
+   "file": "shared/models/ocean_buoy.glb",
+   "fit": "height",
+   "meters": 2.7,
+   "band": "in the water, top light blinking every 2 s",
+   "count": "2"
+  },
+  "fishing_boat": {
+   "file": "besant/models/boat_fishing_small.glb",
+   "fit": "length",
+   "meters": 6,
+   "band": "on the sea far away, small cabin light",
+   "count": "2"
+  },
+  "lifebuoy": {
+   "file": "shared/models/lifebuoy.glb",
+   "fit": "height",
+   "meters": 0.8,
+   "band": "on promenade railings",
+   "count": "2-3"
+  }
+ },
+ "palms": [
+  {
+   "file": "shared/models/palm_1.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "silhouettes along the promenade back edge",
+   "count": "8-10 total"
+  },
+  {
+   "file": "shared/models/palm_2.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "silhouettes along the promenade back edge",
+   "count": "8-10 total"
+  },
+  {
+   "file": "shared/models/palm_3.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "silhouettes along the promenade back edge",
+   "count": "8-10 total"
+  },
+  {
+   "file": "shared/models/palm_4.glb",
+   "fit": "height",
+   "meters": 8,
+   "band": "silhouettes along the promenade back edge",
+   "count": "8-10 total"
+  }
+ ]
+}
